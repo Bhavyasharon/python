@@ -1,5 +1,8 @@
-num=15
+num=0
+
 if(num>0):
     print("positive")
-else:
+elif(num<0):
     print("negative")
+else:
+    print("zero")
